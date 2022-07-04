@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+learn.supporthives.com	TRUE	/	FALSE	1999999999	XSRF-TOKEN	GHvlI89blSAYby2edCEDlIPFsiwEWETLst15Rm45
+learn.supporthives.com	TRUE	/	FALSE	1999999999	monk_vyasa_session	OqoZJ58MEaEZVWZi2zeeUCcS5N6Tp15qCu4RlWlB
+learn.supporthives.com	TRUE	/	FALSE	1999999999	SameSite	None
+

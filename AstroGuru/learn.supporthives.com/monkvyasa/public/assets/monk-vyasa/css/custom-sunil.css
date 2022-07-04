@@ -1,0 +1,11 @@
+.navbar {
+    border-bottom: 0px solid rgba(27, 31, 59, .08) !important;
+}
+
+.nav-link:hover {
+    color: #C9A364 !important;
+}
+
+#footer .nav .nav-item .nav-link:hover {
+    color: #C9A364 !important;
+}

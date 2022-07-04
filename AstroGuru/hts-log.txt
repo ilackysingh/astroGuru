@@ -1,0 +1,37 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 04 Jul 2022 01:23:02 at https://learn.supporthives.com/monkvyasa/ https://learn.supporthives.com/monkvyasa/astrologers https://learn.supporthives.com/monkvyasa/users/login https://learn.supporthives.com/monkvyasa/users/registration https://learn.supporthives.com/monkvyasa/profile https://learn.supporthives.com/monkvyasa/my_reports https://learn.supporthives.com/monkvyasa/my_calls https://learn.supporthives.com/monkvyasa/my_chats https://learn.supporthives.com/monkvyasa/my_wallet +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://learn.supporthives.com/monkvyasa/ https://learn.supporthives.com/monkvyasa/astrologers https://learn.supporthives.com/monkvyasa/users/login https://learn.supporthives.com/monkvyasa/users/registration https://learn.supporthives.com/monkvyasa/profile https://learn.supporthives.com/monkvyasa/my_reports https://learn.supporthives.com/monkvyasa/my_calls https://learn.supporthives.com/monkvyasa/my_chats https://learn.supporthives.com/monkvyasa/my_wallet -O1 "E:\AstroGuru\AstroGuru" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+01:25:59	Error: 	"Not Found" (404) at link https://learn.supporthives.com/monkvyasa/index.html (from https://learn.supporthives.com/monkvyasa/)
+01:25:59	Error: 	"Not Found" (404) at link https://learn.supporthives.com/monkvyasa/transparent (from https://learn.supporthives.com/monkvyasa/)
+01:25:59	Error: 	"Not Found" (404) at link https://www.api.monkvyasa.com/assets/uploads/user/avatar/ashish.jpg (from https://learn.supporthives.com/monkvyasa/)
+01:26:39	Error: 	"Not Found" (404) at link https://learn.supporthives.com/monkvyasa/category/nav-element-list (from https://learn.supporthives.com/monkvyasa/)
+01:26:39	Error: 	"Not Found" (404) at link https://learn.supporthives.com/monkvyasa/language (from https://learn.supporthives.com/monkvyasa/)
+01:26:39	Error: 	"Not Found" (404) at link https://learn.supporthives.com/monkvyasa/currency (from https://learn.supporthives.com/monkvyasa/)
+01:26:39	Error: 	"Not Found" (404) at link https://learn.supporthives.com/monkvyasa/ajax-search (from https://learn.supporthives.com/monkvyasa/)
+01:26:39	Error: 	"Method Not Allowed" (405) at link https://learn.supporthives.com/monkvyasa/cart/removeFromCart (from https://learn.supporthives.com/monkvyasa/)
+01:26:39	Error: 	"Method Not Allowed" (405) at link https://learn.supporthives.com/monkvyasa/compare/addToCompare (from https://learn.supporthives.com/monkvyasa/)
+01:26:39	Error: 	"Method Not Allowed" (405) at link https://learn.supporthives.com/monkvyasa/cart/show-cart-modal (from https://learn.supporthives.com/monkvyasa/)
+01:26:40	Error: 	"Method Not Allowed" (405) at link https://learn.supporthives.com/monkvyasa/request/astrodetails (from https://learn.supporthives.com/monkvyasa/)
+01:26:40	Error: 	"Method Not Allowed" (405) at link https://learn.supporthives.com/monkvyasa/request/call (from https://learn.supporthives.com/monkvyasa/)
+01:26:40	Error: 	"Method Not Allowed" (405) at link https://learn.supporthives.com/monkvyasa/request/book_report (from https://learn.supporthives.com/monkvyasa/)
+01:27:08	Error: 	"Method Not Allowed" (405) at link https://learn.supporthives.com/monkvyasa/request/chat (from https://learn.supporthives.com/monkvyasa/astrologers)
+01:27:08	Error: 	"Not Found" (404) at link https://learn.supporthives.com/monkvyasa/users/index.html (from https://learn.supporthives.com/monkvyasa/users/login)
+01:27:12	Error: 	"Not Found" (404) at link https://learn.supporthives.com/monkvyasa/public/assets/monk-vyasa/fonts/Tahu!.ttf (from https://learn.supporthives.com/monkvyasa/public/assets/monk-vyasa/css/custom-purav.css)
+01:27:12	Error: 	"Not Found" (404) at link https://learn.supporthives.com/monkvyasa/public/assets/monk-vyasa/fonts/Butler_Medium.woff2 (from https://learn.supporthives.com/monkvyasa/public/assets/monk-vyasa/css/custom-vijay.css)
+01:27:12	Error: 	"Not Found" (404) at link https://learn.supporthives.com/monkvyasa/public/assets/monk-vyasa/fonts/Butler_Light.woff2 (from https://learn.supporthives.com/monkvyasa/public/assets/monk-vyasa/css/custom-vijay.css)
+01:27:12	Error: 	"Not Found" (404) at link https://learn.supporthives.com/monkvyasa/public/assets/monk-vyasa/fonts/Butler_Black.woff2 (from https://learn.supporthives.com/monkvyasa/public/assets/monk-vyasa/css/custom-vijay.css)
+01:27:12	Error: 	"Not Found" (404) at link https://learn.supporthives.com/monkvyasa/public/assets/monk-vyasa/fonts/Butler_Bold.woff2 (from https://learn.supporthives.com/monkvyasa/public/assets/monk-vyasa/css/custom-vijay.css)
+01:27:12	Warning: 	Retry after error 500 (Internal Server Error) at link https://learn.supporthives.com/monkvyasa/blog/index.html (from https://learn.supporthives.com/monkvyasa/blog/how-to-use-astrology-to-improve-your-luck-in-life-)
+01:27:13	Error: 	"Method Not Allowed" (405) at link https://learn.supporthives.com/monkvyasa/cart/updateQuantity (from https://learn.supporthives.com/monkvyasa/cart)
+01:27:13	Error: 	"Forbidden" (403) at link https://learn.supporthives.com/monkvyasa/public/assets/astro/images/avatar/ (from https://learn.supporthives.com/monkvyasa/astrologers?page=4)
+01:27:13	Error: 	"Not Found" (404) at link https://learn.supporthives.com/monkvyasa/password/index.html (from https://learn.supporthives.com/monkvyasa/password/reset)
+01:27:13	Warning: 	Retry after error 500 (Internal Server Error) at link https://learn.supporthives.com/monkvyasa/blog/index.html (from https://learn.supporthives.com/monkvyasa/blog/how-to-use-astrology-to-improve-your-luck-in-life-)
+01:27:14	Error: 	"Internal Server Error" (500) after 2 retries at link https://learn.supporthives.com/monkvyasa/blog/index.html (from https://learn.supporthives.com/monkvyasa/blog/how-to-use-astrology-to-improve-your-luck-in-life-)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 12 seconds : 289 links scanned, 262 files written (73276865 bytes overall) [70506581 bytes received at 279788 bytes/sec], 4461607 bytes transferred using HTTP compression in 81 files, ratio 19%, 3.8 requests per connection
+(24 errors, 2 warnings, 0 messages)

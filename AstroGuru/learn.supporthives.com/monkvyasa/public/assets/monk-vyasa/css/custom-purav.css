@@ -1,0 +1,654 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+@font-face {
+    font-family: "Inter Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Inter Regular"), url("../fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Inter Bold"), url("../fonts/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter ExtraBold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Inter ExtraBold"), url("../fonts/Inter-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter ExtraLight";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Inter ExtraLight"), url("../fonts/Inter-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Inter Light"), url("../fonts/Inter-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Inter Medium"), url("../fonts/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter SemiBold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Inter SemiBold"), url("../fonts/Inter-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Thin";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Inter Thin"), url("../fonts/Inter-Thin.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Black";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Inter Black"), url("../fonts/Inter-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Butler Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Butler Regular"), url("../fonts/Butler_Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Butler UltraLight";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Butler UltraLight"), url("../fonts/Butler_Ultra_Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Butler Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Butler Light"), url("../fonts/Butler_Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Butler Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Butler Medium"), url("../fonts/Butler_Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Butler Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Butler Bold"), url("../fonts/Butler_Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Butler ExtraBold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Butler ExtraBold"), url("../fonts/Butler_ExtraBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Butler Black";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Butler Black"), url("../fonts/Butler_Black.woff") format("woff");
+}
+
+
+/* Tahu! font */
+
+@font-face {
+    font-family: "Tahu!";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Tahu!"), url("../fonts/Tahu%21.html") format("ttf");
+}
+
+
+/* HEADER AND FOOTER START */
+
+
+/* .navbar-container nav.navbar {
+    border-bottom: 0px solid rgba(27,31,59,.08);
+} */
+
+.head-1 {
+    font-family: Butler Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -0.03em;
+    color: #020617;
+}
+
+.head-2 {
+    font-family: Butler Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 67px;
+    letter-spacing: -0.02em;
+    color: #020617;
+}
+
+.head-4-cream {
+    font-family: Butler Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #C9A364;
+}
+
+.p-smaller {
+    font-family: Inter Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 149.02%;
+    color: #C9A364;
+}
+
+.p-small-blk {
+    font-family: Inter Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #48547D;
+}
+
+.p-small-white {
+    font-family: Inter Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.p-std {
+    font-family: Inter Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #48547D;
+}
+
+.p-large-cream {
+    font-family: Inter Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #C9A364;
+}
+
+.nav-link {
+    font-family: Inter Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: -0.4px;
+    color: #020617;
+}
+
+.recharge-wallet-header {
+    font-family: Inter Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;            /*font size changed from 14 to 12 for astrologer pages*/
+    line-height: 149.02%;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #c9a364;
+}
+
+.wallet-amount {
+    font-family: Inter Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;            /*font size changed from 14 to 12 for astrologer pages*/
+    line-height: 149.02%;
+    color: #020617;
+}
+
+.inr-color {
+    font-family: Inter Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;            /*font size changed from 14 to 12 for astrologer pages*/
+    line-height: 149.02%;
+    color: #c9a364;
+}
+
+
+/*Mobile menu*/
+
+#mySidenav .nav-link {
+    font-family: Butler;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #020617;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 2.5rem;
+}
+
+#mySidenav .nav-link:hover {
+    font-family: Butler;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #020617;
+    padding: 5px 20px 5px 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+.mobactive {
+    background: #f1c586;
+}
+
+.testsunil {
+    background: rgba(30, 40, 75, 0.8);
+}
+
+.mobilenavmenu {
+    width: 100% !important;
+}
+
+.sidenav {
+    height: auto;
+    height: 686px;
+    position: absolute;
+    z-index: 1;
+    background-color: #212121;
+    background: url("../img/mobile_headerbg.jpg") no-repeat top center;
+    background-size: cover;
+    object-fit: fill;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 2.6rem;
+    right: 1.9rem;
+    font-size: 36px;
+    color: #fff;
+}
+
+.sidenav .closebtn svg {
+    position: absolute;
+    top: -0.5rem;
+    left: -0.4rem;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    padding: 8px 0px 8px 0px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 23px;
+    color: #f1f6f8;
+}
+
+.line-mob {
+    width: 100%;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+
+/* ASTROLOGER START */
+
+.btn:hover {
+    color: #c9a364 !important;
+}
+
+.p-read {
+    font-family: Inter Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    text-decoration-line: underline;
+    color: #020617;
+}
+
+.bg-astro {
+    background: url() no-repeat;
+    background-size: cover;
+}
+
+.bg-card {
+    background: url("../img/bg-card.png") no-repeat;
+    background-size: cover;
+    border: 0px;
+    border-radius: 0;
+}
+
+.main-input {
+    position: relative;
+}
+
+.gold-input {
+    border: 1px solid #c9a364;
+    box-sizing: border-box;
+    border-radius: 44px;
+    background: #fff;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-img {
+    position: absolute;
+    top: 8px;
+    right: 21px;
+}
+
+.custom-dropdown {
+    border: 1px solid #c9a364;
+    box-sizing: border-box;
+    border-radius: 44px;
+    height: 40px;
+}
+
+::placeholder {
+    color: #020617 !important;
+}
+
+.custom-width-popup {
+    max-width: 55rem;
+}
+
+.btn-bg-gold:hover {
+    color: white!important;
+}
+
+.n-one::-webkit-input-placeholder:after {
+    content: "(DD/MM/YYYY)";
+    color: #c9a364;
+}
+
+.n-two::-webkit-input-placeholder:after {
+    content: "(HH:MM)";
+    color: #c9a364;
+}
+
+.n-three::-webkit-input-placeholder:after {
+    content: "(In Minutes)";
+    color: #c9a364;
+}
+
+.white-btn:hover {
+    color: #C9A364!important;
+}
+
+.custom-index-height {
+    height: 85vh!important;
+}
+
+.custom-index-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* ASTROLER END */
+
+
+/*Mobile menu*/
+
+.footer-bg {
+    background: url("../img/footer_desktop.png") no-repeat top center;
+    background-size: cover;
+    object-fit: fill;
+}
+
+.footer-bg-border {
+    background: #ffffff;
+    border: 1px solid #c9a364;
+}
+
+#footer .nav .nav-item .nav-link {
+    font-family: Inter Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #020617;
+    mix-blend-mode: normal;
+    opacity: 1;
+}
+
+#footer .h4-gold-butler {
+    font-family: Butler Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #c9a364;
+}
+
+#footer .copyright {
+    font-family: Inter Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #020617;
+    mix-blend-mode: normal;
+}
+
+.custom-nav {
+    font-family: Inter Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #020617 !important;
+    mix-blend-mode: normal;
+    opacity: 1;
+}
+
+.padd {
+    padding: 10rem 0rem 5rem;
+}
+
+
+/* HEADER AND FOOTER END */
+
+
+/* ALL MEDIA QUERIES START */
+
+
+/* @media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1300px;
+    }
+} */
+
+@media screen and (max-width: 2048px) {}
+
+@media screen and (max-width: 1920px) {}
+
+@media (max-width: 1600px) {}
+
+@media screen and (max-width: 1440px) {}
+
+@media (max-width: 1366px) {}
+
+@media (max-width: 1349px) {}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 800px) {
+    .custom-index-height {
+        height: 70ch!important;
+    }
+    .custom-index-text {
+        position: absolute;
+        top: auto;
+    }
+    .head-1 {
+        font-family: Butler Regular;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        text-transform: capitalize;
+        color: #020617;
+    }
+    .head-2 {
+        font-family: Butler Regular;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        text-transform: capitalize;
+        color: #020617;
+    }
+    .head-4-cream {
+        font-family: Butler Regular;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #C9A364;
+    }
+    .p-smaller {
+        font-family: Inter Regular;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 149.02%;
+        color: #C9A364;
+    }
+    .p-small-blk {
+        font-family: Inter Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #48547D;
+    }
+    .p-small-white {
+        font-family: Inter Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .p-std {
+        font-family: Inter Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #48547D;
+    }
+    .p-large-cream {
+        font-family: Inter Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        color: #C9A364;
+    }
+    #footer {
+        border: 1px solid #c9a364;
+    }
+    .footer-bg {
+        background: none;
+        background-size: cover;
+        object-fit: fill;
+    }
+    .footer-bg-border {
+        background: #ffffff;
+        border: 0px solid #c9a364;
+    }
+    .sidenav {
+        top: 6.3rem;
+        right: 0;
+        display: block;
+    }
+    #footer .row:not(.no-gutters)>[class*="col-6"]:nth-child(even) {
+        padding-left: 12px !important;
+    }
+    #footer .row:not(.no-gutters)>[class*="col-6"]:nth-child(odd) {
+        padding-right: 12px !important;
+    }
+}
+
+@media (min-width: 900px) {
+    .sidenav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {}
+
+
+/* ALL MEDIA QUERIES END */
